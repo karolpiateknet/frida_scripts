@@ -17,6 +17,12 @@ Output:
 
 <img width="358" alt="frida-ps_-Ua" src="https://user-images.githubusercontent.com/57398986/132090413-2af0e951-0727-4d50-a79f-6067fcf4a374.png">
 
+Replace the bundle ID inside python files.
+
+```
+applicationBundleID = 'com.highaltitudehacks.DVIAswiftv2.de'
+```
+
 
 # List
 
