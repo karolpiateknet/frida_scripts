@@ -7,6 +7,11 @@ This repository contains Frida scripts that I wrote to speed up Pentests.
 Before you can use these scripts you need to install frida using following [tutorial](https://frida.re/docs/ios/).
 Also you will need to install [iProxy](https://github.com/tcurdt/iProxy) to connect to device.
 
+To open connection to iphone via USB run the command:
+```
+iproxy 2222 22
+```
+
 Open the application bundle ID that interests you using command:
 
 ```
