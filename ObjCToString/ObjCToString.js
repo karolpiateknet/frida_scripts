@@ -12,7 +12,8 @@ rpc.exports = {
                         try {
                             console.log("Class name: " + className)
                             var instance = ObjC.classes[className].alloc().init();
-                            console.log("Class description: " + instance["- _shortMethodDescription"]());
+                            console.log("Class properties: " + instance["- _ivarDescription"]());
+                            console.log("Class methods: " + instance["- _shortMethodDescription"]());
                             console.log("--------------------------------------------");
                         } catch (error) {
                             console.log("Error");
