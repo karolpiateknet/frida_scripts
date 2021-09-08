@@ -10,10 +10,12 @@ rpc.exports = {
                 for (const key of keyWords) {
                     if (className.includes(key)) {
                         try {
+                            console.log("Class name: " + className)
                             var instance = ObjC.classes[className].alloc().init();
-                            console.log(instance.toString());
+                            console.log("Class description: " + instance["- _shortMethodDescription"]());
+                            console.log("--------------------------------------------");
                         } catch (error) {
-                            
+                            console.log("Error");
                         }
                     }
                 }
