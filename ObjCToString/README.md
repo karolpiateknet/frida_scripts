@@ -4,10 +4,16 @@ Purpose of this script is to find ObjC classes that contains specific keywords i
 
 # Run
 
-Run the script using command:
+Run the script using commands:
 
 ```
 python ObjCToString.py
+```
+
+or 
+
+```
+frida -U -l ObjCToString.js MyApp
 ```
 
 If values containing those keywords exists you should get them in console.
